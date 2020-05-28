@@ -1,0 +1,15 @@
+<main class="index">
+    <header class="masthead d-flex">
+        <div class="container text-center my-auto">
+            <h1 class="mb-1">Seguridad de la información</h1>
+            <h3 class="mb-5">
+                <em>Crud en MySQL con autenticación de usuario</em>
+            </h3>
+            {{#if user}}
+            <a href="/profile" class="btn btn-primary">Ir al Perfil</a>
+            {{else}}
+            <a href="/signin" class="btn btn-primary">Iniciar Sesión</a>
+            {{/if}}
+        </div>
+    </header>
+</main>
